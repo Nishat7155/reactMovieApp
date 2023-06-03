@@ -7,6 +7,7 @@ import {
   Route,
   Switch
 } from "react-router-dom";
+import { HomePages } from './home/HomePages';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/about'>
+          <Route exact path='/' component={HomePages}>
              
           </Route>
         </Switch>

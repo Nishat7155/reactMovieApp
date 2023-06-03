@@ -21,8 +21,8 @@ export const Header = () => {
            <Link to ='/pricing'>Pricing</Link>
            <Link to='/contact'>Contact</Link>
         </ul>
-        <button className="toggle">
-          <i className="fa fa-bars"></i>
+        <button className="toggle" onClick={() => setMobile(!Mobile)}>
+          {Mobile ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}
         </button>
       </nav>
       <div className="account flexSB">
