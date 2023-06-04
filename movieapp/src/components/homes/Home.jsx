@@ -36,12 +36,20 @@ export const Home = ({ items }) => {
     prevArrow: <SamplePrevArrow />,
   }
   return (
-    <div className="homeContainer">
-      <Slider {...settings}>
-      {items.map((item) => {
-        return <HomeCard key={item.id} item={item} />;
-      })}
-      </Slider>
-    </div>
-  );
+    <>
+      <div className='homeContainer'>
+        <Slider {...settings}>
+          {items.map((item) => {
+            return (
+              <>
+                <HomeCard key={item.id} item={item} />
+              </>
+            )
+          })}
+        </Slider>
+      </div>
+    </>
+  )
 };
+
+export default Home;

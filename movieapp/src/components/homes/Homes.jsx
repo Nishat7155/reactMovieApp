@@ -4,13 +4,14 @@ import { Home } from "./Home";
 import "./homes.css";
 
 export const Homes = () => {
-  const[items, setItems] = useState(homeData)
+  const [items, setItems] = useState(homeData)
+
   return (
     <>
-      <section className="home">
-        <Home items={ items} />
+      <section className='home'>
+        <Home items={items} />
       </section>
-      <div className="margin"></div>
+      <div className='mragin'></div>
     </>
   )
 }

@@ -1,7 +1,8 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-export const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
+
+const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
   
   return (
     <>
