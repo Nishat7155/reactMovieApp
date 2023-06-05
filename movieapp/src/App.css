@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #1d0000;
+  background-color: #050000;
   color: #fff;
 }
 
@@ -25,6 +25,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .flex {
@@ -37,7 +38,7 @@ ul {
 }
 
 button {
-  background: #e56b08;
+  background: #e55908;
   outline: none;
   border: none;
   color: #fff;
@@ -58,7 +59,7 @@ p {
 /*---------------control-btn-------------*/
 .control-btn button {
   background: none;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(79, 4, 4, 0.3);
   padding: 0;
   width: 50px;
   height: 50px;
@@ -86,7 +87,7 @@ p {
 }
 
 .heading a {
-  color: #e56808;
+  color: #e55d08;
 }
 
 /*---------------MovieBox-------------*/
@@ -97,12 +98,12 @@ p {
   position: relative;
   transition: 0.5s;
   border-left: 5px solid transparent;
-  color: rgb(245, 229, 164);
+  color: rgb(249, 176, 74);
 }
 
 .MovieBox:hover {
   cursor: pointer;
-  border-left: 5px solid #e56f08;
+  border-left: 5px solid #0a0704;
   transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(31.25em);
   box-shadow: 0px 0px 0.75em rgba(0, 0, 0, 0.9);
 }
