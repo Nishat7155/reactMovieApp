@@ -134,6 +134,36 @@ export const latest = [
     name: "The Peter Pan ",
     time: "2hr : 38mins",
   },
+  {
+    id: 6,
+    cover: "../images/upcome/u12.jpg",
+    name: "Murder Mystery 2 ",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 7,
+    cover: "../images/upcome/u13.jpg",
+    name: "The Strays ",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 8,
+    cover: "../images/upcome/u15.jpg",
+    name: "Your Place or Mine ",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 9,
+    cover: "../images/upcome/u14.jpg",
+    name: "Boston Strangler ",
+    time: "2hr : 38mins",
+  },
+  {
+    id: 10,
+    cover: "../images/upcome/u16.jpg",
+    name: " Blood & Gold",
+    time: "2hr : 38mins",
+  },
 ]
 
 export const trending = [
