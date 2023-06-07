@@ -1,0 +1,38 @@
+.series {
+  margin-top: 50px;
+}
+
+.series h1 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .series h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .series {
+    position: relative;
+    height: 60vh !important;
+  }
+
+  .series .coverImage img {
+    width: 100vw;
+    height: 70vh !important;
+  }
+
+  .series .content {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .series .row {
+    width: 100%;
+  }
+
+  .series .palyButton {
+    display: none;
+  }
+}

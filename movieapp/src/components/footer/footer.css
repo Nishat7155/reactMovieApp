@@ -30,7 +30,7 @@ footer i {
   align-items: center;
   line-height: 40px !important;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(to right bottom, rgba(240, 136, 38, 0.9), rgba(238, 85, 19, 0.9), rgba(193, 50, 6, 0.6), rgba(105, 26, 2, 0.5), rgba(43, 16, 1, 0));
   text-align: center;
   margin-right: 20px;
   margin-top: 10px;

@@ -1,6 +1,5 @@
 import React from "react";
 import Ucard from "./Ucard";
-
 import { Link } from "react-router-dom";
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"

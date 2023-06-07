@@ -1,0 +1,38 @@
+.recseries {
+  margin-top: 50px;
+}
+
+.recseries h1 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .recseries h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .recseries {
+    position: relative;
+    height: 60vh !important;
+  }
+
+  .recseries .coverImage img {
+    width: 100vw;
+    height: 70vh !important;
+  }
+
+  .recseries .content {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .recseries .row {
+    width: 100%;
+  }
+
+  .recseries .palyButton {
+    display: none;
+  }
+}
