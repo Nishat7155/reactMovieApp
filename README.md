@@ -4,3 +4,4 @@
 <img width="1272" alt="Screenshot 2023-06-07 at 13 02 40" src="https://github.com/Nishat7155/reactMovieApp/assets/57759578/15da708d-0ed7-49a3-b356-dc8bb9377b46">
 ![ezgif com-video-to-gif (1)](https://github.com/Nishat7155/reactMovieApp/assets/57759578/5d4c10ad-a188-48a9-81f7-2e3be278de54)
 ![ezgif com-video-to-gif (2)](https://github.com/Nishat7155/reactMovieApp/assets/57759578/29568236-cb78-4f89-bfd7-7b07d68bdc37)
+![ezgif com-video-to-gif (2)](https://github.com/Nishat7155/reactMovieApp/assets/57759578/c1002dc9-9278-4801-a081-7f9397e00c05)
